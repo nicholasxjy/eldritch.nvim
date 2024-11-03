@@ -35,6 +35,8 @@ M.default = {
   red = "#f16c75",
   bright_red = "#f0313e",
   bright_white = "#FFFFFF",
+  teal = "#1abc9c",
+  blue = "#7aa2f7",
   git = { change = "#7081d0", add = "#37f499", delete = "#f16c75" },
   gitSigns = {
     add = "#37f499",
