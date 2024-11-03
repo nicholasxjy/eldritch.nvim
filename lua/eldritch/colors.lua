@@ -25,6 +25,7 @@ M.default = {
   magenta3 = "#722f55",
   pink = "#f265b5",
   purple = "#a48cf2",
+  bright_purple = "#9071f4",
   orange = "#f7c67f",
   yellow = "#f1fc79",
   dark_yellow = "#c0c95f",
@@ -33,6 +34,7 @@ M.default = {
   dark_green = "#33C57F",
   red = "#f16c75",
   bright_red = "#f0313e",
+  bright_white = "#FFFFFF",
   git = { change = "#7081d0", add = "#37f499", delete = "#f16c75" },
   gitSigns = {
     add = "#37f499",
