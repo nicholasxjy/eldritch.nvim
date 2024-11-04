@@ -438,9 +438,9 @@ local function setup(configs)
     -- Blink Cmp
     BlinkCmpDoc = { fg = colors.fg, bg = colors.bg_float },
     BlinkCmpDocBorder = { fg = colors.border_highlight, bg = colors.bg_float },
-    BlinkCmpGhostText = { fg = colors.terminal_black },
-    BlinkCmpKindDefault = { fg = colors.fg_dark },
-    BlinkCmpLabelMatch = { fg = colors.blue },
+    -- BlinkCmpGhostText = { fg = colors.terminal_black },
+    -- BlinkCmpKindDefault = { fg = colors.fg_dark },
+    -- BlinkCmpLabelMatch = { fg = colors.blue },
 
     BlinkCmpLabel = { fg = colors.fg },
     BlinkCmpLabelDeprecated = { fg = colors.fg_dark, bg = colors.none, strikethrough = true },
