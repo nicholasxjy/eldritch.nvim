@@ -171,7 +171,7 @@ local function setup(configs)
     ["@keyword.operator"] = { fg = colors.purple },
     ["@operator"] = { fg = colors.purple },
     ["@keyword.exception"] = { fg = colors.green },
-    ["@type"] = { fg = colors.bright_purple },
+    ["@type"] = { fg = colors.dark_cyan },
     ["@type.builtin"] = { fg = colors.cyan, italic = true },
     ["@type.qualifier"] = { fg = colors.purple },
     ["@type.def"] = { fg = colors.yellow },
@@ -379,6 +379,7 @@ local function setup(configs)
     DiagnosticVirtualTextWarn = { fg = colors.yellow },
     DiagnosticVirtualTextInfo = { fg = colors.cyan },
     DiagnosticVirtualTextHint = { fg = colors.cyan },
+    DiagnosticUnnecessary = { fg = colors.fg_dark, undercurl = true },
 
     LspDiagnosticsDefaultError = { fg = colors.red },
     LspDiagnosticsDefaultWarning = { fg = colors.yellow },
