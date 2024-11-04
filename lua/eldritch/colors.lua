@@ -9,6 +9,7 @@ M.default = {
   bg = "#212337",
   bg_highlight = "#292e42",
   terminal_black = "#414868",
+  selection = "#323449",
   fg = "#ebfafa",
   fg_dark = "#ABB4DA",
   fg_gutter = "#3b4261",
